@@ -29,4 +29,7 @@
     .nav.nav-tabs a{
         padding: 15px 15px;
     }
+    .row{
+        margin: 15px 20px;
+    }
 }
