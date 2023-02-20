@@ -1,0 +1,14 @@
+@charset "utf-8";
+/********************CONTAINERFLUID*************************/
+.contactmap{
+    margin: 30px 0px 0px 0px;
+}
+/********************CONTACTANOS*************************/
+.contactmap .row{
+    margin: 0px 50px 20px 50px;
+    padding: 0;
+}
+/********************CONTACTANOSMAPA*************************/
+.mapa iframe{
+    height: 450px;
+}

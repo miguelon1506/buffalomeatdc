@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link href="css/contacto.css" rel="stylesheet" type="text/css">
   </head>
   <body style="padding-top: 70px">
   	<!-- body code goes here -->
@@ -18,116 +19,48 @@
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 	      <ul class="navbar-nav mr-auto">
-	        <li class="nav-item active"> <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a> </li>
+	        <li class="nav-item"> <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a> </li>
 	        <li class="nav-item"> <a class="nav-link" href="productos.html">Productos</a> </li>
-	        <li class="nav-item"> <a class="nav-link" href="#">Contacto</a> </li>
+	        <li class="nav-item active"> <a class="nav-link" href="#">Contacto</a> </li>
           </ul>
         </div>
       </nav>
-	<!------------------------------------------------------CARRUSEL----------------------------------------------------->
-	  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-	    </ol>
-		  <div class="carousel-inner" role="listbox">
-		    <div class="carousel-item active"><img class="d-block mx-auto img-fluid" src="images/car1.jpg" alt="Placeholder image">
-		      <div class="carousel-caption">
-		        <h5>First slide Heading</h5>
-		        <p>First slide Caption</p>
-	          </div>
-	        </div>
-		    <div class="carousel-item"> <img class="d-block mx-auto img-fluid" src="images/car2.jpg" alt="Second slide">
-		      <div class="carousel-caption">
-		        <h5>Second slide Heading</h5>
-		        <p>Second slide Caption</p>
-	          </div>
-	        </div>
-		    <div class="carousel-item"> <img class="d-block mx-auto img-fluid" src="images/car3.jpg" alt="Third slide">
-		      <div class="carousel-caption">
-		        <h5>Third slide Heading</h5>
-		        <p>Third slide Caption</p>
-	          </div>
-	        </div>
-	    </div>
-		  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
-	  </div>
-	<!---------------------------------------------JUMBOTRON------------------------------------------------------------>
-    <div class="jumbotron mb-0">
-      <h1 class="display-4">Elige bienestar. Elige Buffalo Meat</h1>
-      <p class="lead">Cuidarte está en ti. Por eso nuestros productos son 100% naturales. Adiós a los conservantes.</p>
-      <hr class="my-4">
-      <p>Conoce más de lo que tenemos para ti aquí</p>
-      <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Ver más</a> </p>
-    </div>
     <!------------------------------------------------REDESLAT------------------------------------------------------------>
       <div class="redeslat">
           <a href="#" class="whalat verdewha"><i class="fa fa-whatsapp"></i>Escríbenos</a>
           <a href="#" class="iglat rosaig"><i class="fa fa-facebook-square"></i>Síguenos</a>
           <a href="#" class="fblat azulfb"><i class="fa fa-instagram"></i>Síguenos</a>
       </div>
-	<!------------------------------------------------INFOVID------------------------------------------------------------>
-	  <div class="container-fluid infovid">
-		<div class="row">
-		  <div class="col-xl-6">
-			<div class="embed-responsive embed-responsive-16by9">
-			  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=DJIdlATLR2E"></iframe>
-		    </div>
+	<!------------------------------------------CONTAINERMAP------------------------------------------------------------>
+    <div class="container-fluid contactmap">
+        <h1 class="px-5">Contáctanos</h1>
+        <div class="row">
+          <div class="col-xl-8 mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0181234413453!2d-74.05379268541817!3d4.76682239653811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85eac2d94c1f%3A0xc27ce291b8edd0c6!2sCl.%20187%20%2357-45%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1676773489548!5m2!1ses-419!2sco" class="col-xl-6" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="infocontacto col-xl-6">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eius fugiat maxime nemo iusto, soluta.</h2>              
+              </div>
+            </div>
+          <div class="col-xl-4 formcontacto">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
-		  <div class="col-xl-6 my-auto vidtext">
-			<h1>Lo mejor de los que hacemos es para quien lo hacemos</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima facere provident in esse dolorem nisi accusamus tenetur quas facilis quod. Molestias laborum fuga asperiores repellendus deleniti, eos deserunt aliquam officia ex, sequi veritatis velit provident, quasi blanditiis quod suscipit magni amet debitis possimus pariatur iure? Architecto amet nisi, ad quaerat?</p>
-		  </div>
-	    </div>
-      </div>
-	<!------------------------------------------------BLOG------------------------------------------------------------>
-	  <div class="container-fluid blog">
-		<h1>Noticias</h1>
-		<div class="row">
-		  <div class="col-xl-6">
-		    <div class="card text-center col-md-4 col-xl-12">
-			    <div class="card-header"> Header </div>
-			    <div class="card-body">
-			      <h5 class="card-title">Card Title</h5>
-			      <p class="card-text">Card with header and footer.</p>
-			      <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-			    <div class="card-footer text-muted"> Footer </div>
-		    </div>
-          </div>
-		  <div class="col-xl-6">
-			   <div class="card text-center col-md-4 col-xl-12">
-			    <div class="card-header"> Header </div>
-			    <div class="card-body">
-			      <h5 class="card-title">Card Title</h5>
-			      <p class="card-text">Card with header and footer.</p>
-			      <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-			    <div class="card-footer text-muted"> Footer </div>
-		    </div>
-		  </div>
-		  <div class="col-xl-6">
-			   <div class="card text-center col-md-4 col-xl-12">
-			    <div class="card-header"> Header </div>
-			    <div class="card-body">
-			      <h5 class="card-title">Card Title</h5>
-			      <p class="card-text">Card with header and footer.</p>
-			      <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-			    <div class="card-footer text-muted"> Footer </div>
-		    </div>
-			</div>
-		  <div class="col-xl-6">
-			   <div class="card text-center col-md-4 col-xl-12">
-			    <div class="card-header"> Header </div>
-			    <div class="card-body">
-			      <h5 class="card-title">Card Title</h5>
-			      <p class="card-text">Card with header and footer.</p>
-			      <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-			    <div class="card-footer text-muted"> Footer </div>
-		    </div>
-		  </div>
-	    </div>
-      </div>
-	<!------------------------------------------------FOOTER------------------------------------------------------------>
+        </div>
+    </div>
+<!------------------------------------------------FOOTER------------------------------------------------------------>
     <footer class="bg-light text-center text-md-left">
         <div class="container">
             <div class="row pt-4">
