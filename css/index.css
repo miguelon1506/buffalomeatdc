@@ -19,7 +19,10 @@ body{
 	font-weight: 600;
 }
 /**********************CARRUSEL**************************/
-.carousel-caption.texto1 h5{
+.carousel-caption{ 
+}
+.carousel-caption h5{
+    padding: 10px;  
     background: rgba(42,123,74,0.8);
     font-weight: 800;
     transition: 0.3s;
@@ -148,7 +151,14 @@ body{
         top: -290px;
         left: -140px;
         font-size: 1.3rem;
-        padding: 10px 20px 10px 110px;
+        padding: 10px 10px 10px 110px;
+        line-height: 1.1em;
+    }
+    .carousel-caption.texto2 h5{
+        position: absolute;
+        top:-40px;
+        font-size: 1.3rem;
+        padding: 10px 10px 100px 10px;
         line-height: 1.1em;
     }
     .jumbotron h1{
