@@ -19,7 +19,11 @@ body{
 	font-weight: 600;
 }
 /**********************CARRUSEL**************************/
-
+.carousel-caption.texto1 h5{
+    background: rgba(42,123,74,0.8);
+    font-weight: 800;
+    transition: 0.3s;
+}
 /**********************JUMBOTRON**************************/
 .jumbotron{
     text-align: center;
@@ -135,15 +139,17 @@ body{
 }
 
 @media only screen and (max-width:575.98px){
+    .carousel-caption.texto1{
+        width: 200px;
+    }
     .carousel-caption.texto1 h5{
         text-align: justify;
         position: absolute;
         top: -290px;
         left: -140px;
         font-size: 1.4rem;
-        font-weight: 700;
-        background: rgba(154,154,154,0.7);
         padding: 10px 20px 10px 100px;
+        line-height: 1.1em;
     }
     .jumbotron h1{
         font-size: 1.7em;
