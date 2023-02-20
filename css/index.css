@@ -155,8 +155,8 @@ body{
         line-height: 1.1em;
     }
     .carousel-caption.texto2 h5{
-        position: absolute;
-        top:-60px;
+        position: relative;
+        top: 105px;
         font-size: 1.3rem;
         padding: 10px 10px 100px 10px;
         line-height: 1.1em;
