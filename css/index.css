@@ -19,13 +19,46 @@ body{
 	font-weight: 600;
 }
 /**********************CARRUSEL**************************/
-.carousel-caption{ 
+.carousel-control-prev, .carousel-control-next{
+    z-index: 10;
 }
 .carousel-caption h5{
-    padding: 10px;  
     background: rgba(42,123,74,0.8);
+    font-size: 3vw;
     font-weight: 800;
     transition: 0.3s;
+}
+/*********TX1*********/
+.carousel-caption.texto1{
+    text-align: left;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 40%;
+}
+.carousel-caption.texto1 h5{
+    padding: 5% 5% 5% 70px; 
+}
+/*********TX2*********/
+.carousel-caption.texto2{
+    position: absolute;
+    bottom: -50px;
+}
+.carousel-caption.texto2 h5{
+    padding: 5% 5% 90px 5%; 
+}
+/*********TX3*********/
+.carousel-caption.texto3{
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 34%;
+}
+.carousel-caption.texto3 h5{
+    padding: 5% 10% 5% 70px; 
 }
 /**********************JUMBOTRON**************************/
 .jumbotron{
@@ -35,6 +68,10 @@ body{
 .jumbotron h1{
     font-size: 2.5em;
     font-weight: 700;
+}
+.btn-primary{
+    background: rgba(42,123,74,1);
+    border: none;
 }
 /**********************REDESLAT**************************/
 .redeslat{
@@ -55,13 +92,13 @@ body{
     font-size: 20pt;
 }
 .verdewha{
-    background: green;
+    background: #128C7E;
 }
 .rosaig{
-    background: magenta;
+    background: #4267B2;
 }
 .azulfb{
-    background: blue;
+    background: #E1306C;
 }
 .redeslat i{
     margin: 0px 20px 0px 0px;
@@ -76,7 +113,7 @@ body{
 }
 /**********************INFOVID**************************/
 .infovid{
-	background: #B41D20;
+	background: #891912;
 	color: #fff;
 }
 .infovid .row{
@@ -90,15 +127,31 @@ body{
 	margin: 0px 100px 0px 30px;
 }
 /**********************BLOG**************************/
+.blog{
+    margin: 40px 0 40px 0 ;
+}
+.blog h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
 .blog .row{
-	margin: 0;
+	margin: 0 50px ;
 	padding: 0;
 }
+/**********************FOOTER**************************/
+.redesbottom i{
+    font-size: 25pt;
+    
+}
 /*************************************************************************************************************/
-@media only screen and (max-width:1500px){
-	.infovid{
+@media only screen and (max-width:1199.98px){
+    .infovid{
 		text-align: center;
 	}
+    .vidtext p, .vidtext h1{
+	    margin: 40px 100px 40px 100px;
+    }
 }
 
 @media only screen and (max-width:991.98px){
@@ -125,6 +178,9 @@ body{
 	.redeslat:hover{
 		right: -105px;
 	}
+    .vidtext p, .vidtext h1{
+	    margin: 40px 80px 40px 80px;
+    }
 }
 
 @media only screen and (max-width:767.98px){
@@ -142,24 +198,8 @@ body{
 }
 
 @media only screen and (max-width:575.98px){
-    .carousel-caption.texto1{
-        width: 200px;
-    }
-    .carousel-caption.texto1 h5{
-        text-align: left;
-        position: absolute;
-        top: -290px;
-        left: -140px;
-        font-size: 1.3rem;
-        padding: 10px 10px 10px 110px;
-        line-height: 1.1em;
-    }
-    .carousel-caption.texto2 h5{
-        position: relative;
-        top: 105px;
-        font-size: 1.3rem;
-        padding: 10px 10px 100px 10px;
-        line-height: 1.1em;
+    .vidtext p, .vidtext h1{
+	    margin: 40px 40px 40px 40px;
     }
     .jumbotron h1{
         font-size: 1.7em;
