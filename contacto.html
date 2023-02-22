@@ -16,7 +16,7 @@
   	<!-- body code goes here -->
   	<div class="container-fluid">
 	<!-----------------------------------------------NAVBAR------------------------------------------------------------>
-	  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="images/logo.svg" width="70px" alt=""></a>
+	  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="70px" alt=""></a>
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 	      <ul class="navbar-nav mr-auto">
@@ -34,70 +34,74 @@
       </div>
 	<!------------------------------------------CONTAINERMAP------------------------------------------------------------>
     <div class="container-fluid contactmap">
-        <h1 class="px-5">Contáctanos</h1>
+        <h1 class="px-5 py-3">Contáctanos</h1>
         <div class="row">
           <div class="col-xl-8 mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0181234413453!2d-74.05379268541817!3d4.76682239653811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85eac2d94c1f%3A0xc27ce291b8edd0c6!2sCl.%20187%20%2357-45%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1676773489548!5m2!1ses-419!2sco" class="col-xl-6" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="infocontacto col-xl-6">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eius fugiat maxime nemo iusto, soluta.</h2>              
+            <div class="row mx-0">
+              <div class="col-xl-8">
+                <iframe class="col-xl-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.0181234413453!2d-74.05379268541817!3d4.76682239653811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85eac2d94c1f%3A0xc27ce291b8edd0c6!2sCl.%20187%20%2357-45%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1676773489548!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              <div class="datoscontacto col-xl-4 my-auto">
+                <div class="infocontacto col-xl-12">
+                    <div class="direccion mb-4">
+                        <h4>Despachos y atención</h4>
+                        <h5>Calle 187 57-45</h5>
+                        <h5>Bogotá D.C.</h5>
+                    </div>
+                    <div class="horarios">
+                        <h4>Horarios</h4>
+                        <h5>Lunes a viernes: 9-5pm</h5>
+                        <h5>Sábados: 8-12m</h5> 
+                    </div>
               </div>
+                </div>
             </div>
-          <div class="col-xl-4 formcontacto">
+          </div>
+          <div class="col-xl-4 formcontacto my-auto">
             <form>
+                <h1>Suscríbete</h1>
+                <h5>Recibe todas las novedades sobre nuestros productos, ofertas y descuentos imperdibles</h5>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                  <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
+                  <label for="exampleInputEmail1">Nombre</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+                  </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="exampleInputPassword1">Correo</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo">
+                  <small id="emailHelp1" class="form-text text-muted">Nunca compartiremos tu correo con terceros.</small> 
                 </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
           </div>
         </div>
     </div>
-<!------------------------------------------------FOOTER------------------------------------------------------------>
-    <footer class="bg-light text-center text-md-left">
-        <div class="container">
-            <div class="row pt-4">
-                <div class="col-sm-6 col-md-3 pb-4">
-                    <h4 class="mb-4">Links de interés</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-dark">Lista de precios detal</a></li>
-                        <li><a href="#" class="text-dark">Lista de precios corporativa</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 pb-4">
-                    <h4 class="mb-4">Acerca de</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-dark">Proveedores</a></li>
-                        <li><a href="#" class="text-dark">Team</a></li>
-                        <li><a href="#" class="text-dark">Careers</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 pb-4">
-                    <h4 class="mb-4">Company Name</h4>
-                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                </div>
-            </div>
-            <div class="col d-flex justify-content-center mb-4">
-                <a href="#" class="d-block px-3"><i class="fa fa-whatsapp"></i></a>
-                <a href="#" class="d-block px-3"><i class="fa fa-facebook-square"></i></a>
-                <a href="#" class="d-block px-3"><i class="fa fa-instagram"></i></a>
-                <a href="#" class="d-block px-3"><i class="fa fa-google"></i></a>
-            </div>
-            <p class="text-center text-secondary border-top border-secondary py-4">
-              MAADesign © 2023
-          </p>
+    <footer class="bg-light text-center text-md-left mb-0 py-0">
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-sm-6 col-md-3 pb-4">
+            <h4 class="mb-4">Links de interés</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark">Lista de precios detal</a></li>
+              <li><a href="#" class="text-dark">Lista de precios corporativa</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 pb-4">
+            <h4 class="mb-4">Acerca de</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://bufasan.com/" target="_blank" class="text-dark">Bufasan</a></li>
+              <li><a href="#" class="text-dark">Proveedores</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 pb-4">
+            <h4 class="mb-4">Distribuidores autorizados Bufasan ©</h4>
+            <p>Traemos desde Santander hasta tu mesa los mejores productos con la frescura y firma de <b>Bufasan©</b> y sus restaurantes <b>Búfalo Sentao©</b></p>
+          </div>
         </div>
+        <div class="redesbottom col d-flex justify-content-center mb-4"> <a href="#" class="d-block px-3"><i class="fa fa-whatsapp"></i></a> <a href="#" class="d-block px-3"><i class="fa fa-facebook-square"></i></a> <a href="#" class="d-block px-3"><i class="fa fa-instagram"></i></a> <a href="#" class="d-block px-3"><i class="fa fa-google"></i></a></div>
+        <p class="text-center text-secondary border-top border-secondary py-4 mb-0"> MAADesign © 2023 </p>
+      </div>
     </footer>
-		
+<!------------------------------------------------FOOTER------------------------------------------------------------>
     </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
   <script src="js/jquery-3.4.1.min.js"></script>

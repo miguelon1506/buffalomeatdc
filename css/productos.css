@@ -2,6 +2,22 @@
 /**********************JUMBOTRON**************************/
 .jumbotron{
     border-radius: 0;
+    background: rgba(137,25,18);
+    color: #fff;
+}
+/**********************NAVCARDS**************************/
+#clothingnav1{
+    background: rgba(137,25,18,0.7);
+}
+.nav-link{
+    color: #fff;
+}
+#hometab1, #hatstab1, #hatstab2{
+    transition: 0.2s;
+}
+#hometab1:hover:not(.active), #hatstab1:hover:not(.active), #hatstab2:hover:not(.active){
+    background: #bbb;
+    border: 1px solid #bbb;
 }
 /**********************TABS**************************/
 .row{

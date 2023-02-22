@@ -12,3 +12,54 @@
 .mapa iframe{
     height: 450px;
 }
+/********************INFOCONTACTO*************************/
+.direccion h4, .horarios h4{
+    font-weight: 700;
+    color: #891912
+}
+/********************FORMCONTACTO*************************/
+.formcontacto{
+    background: #7fb092;
+    padding: 30px;
+    color: #fff;
+}
+/*************************************************************************************************************/
+
+@media only screen and (max-width:1199.98px){
+    .datoscontacto{
+        display: inline-block;
+        padding: 20px 0px 0px 0px;
+    }
+    .direccion{
+        padding: 10px 15px 10px 5px;
+    }
+    .horarios{
+        padding: 10px 5px 10px 15px; 
+    }
+    .direccion, .horarios{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:575.98px){
+    .contactmap h1{
+        text-align: center;
+    }
+    .direccion, .horarios{
+        float: left;
+        width: 100%;
+    }
+    .direccion{
+        padding: 10px 15px 10px 15px;
+    }
+    .horarios{
+        padding: 10px 15px 10px 15px; 
+    }
+    .formcontacto{
+        padding: 20px 40px 20px 40px;
+    }
+    .contactmap .row{
+        margin: 0px 0px 20px 0px;  
+    }
+}
